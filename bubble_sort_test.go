@@ -19,7 +19,7 @@ var perms = []struct {
 func TestSort(t *testing.T) {
 	for i := range perms {
 		if !slicesAreEqual(BubbleSort(perms[i].actual), perms[i].expect) {
-			t.Fatalf("actual (%s) != expected (%s)", perms[i].actual, perms[i].expect)
+			t.Errorf("actual (%s) != expected (%s)", perms[i].actual, perms[i].expect)
 		}
 
 	}
