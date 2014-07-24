@@ -27,6 +27,12 @@ func TestMergeSort(t *testing.T) {
 	runTestsWithFunc(MergeSort, t)
 }
 
+func TestQuickSort(t *testing.T) {
+	t.Logf("not done yet")
+	return
+	runTestsWithFunc(QuickSort, t)
+}
+
 func equal(left, right []int) bool {
 	if len(left) != len(right) {
 		return false
