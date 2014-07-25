@@ -1,0 +1,3 @@
+test:
+	go test -v ./...
+	! gofmt -d *.go 2>&1 | read
