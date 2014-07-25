@@ -28,8 +28,6 @@ func TestMergeSort(t *testing.T) {
 }
 
 func TestQuickSort(t *testing.T) {
-	t.Logf("not done yet")
-	return
 	runTestsWithFunc(QuickSort, t)
 }
 
