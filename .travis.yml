@@ -7,6 +7,12 @@ go:
   - 1.3
   - tip
 
+script:
+  # first check everything's formatted
+  - ! gofmt -d *.go 2>&1 | read
+  # then test it
+  - go test -v ./...
+
 matrix:
   allow_failures:
     - go: tip
