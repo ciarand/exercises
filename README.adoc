@@ -4,5 +4,5 @@ Exercises in Go
 [quote]
 Some simple, low-level exercises written in Go
 
-image:http://img.shields.io/travis/ciarand/exercises/master.svg?style=flat[
-    "Build Status", link="https://travis-ci.org/ciarand/exercises"]
+image:https://drone.io/github.com/ciarand/exercises/status.png[
+    "Build Status", link="https://drone.io/github.com/ciarand/exercises/latest"]
